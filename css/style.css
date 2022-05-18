@@ -44,6 +44,7 @@ header {
     background-color: #FF6900;
     position: fixed;
     width: 100%;
+    box-shadow: 3px 3px 5px grey;
 }
 
 .personal {
