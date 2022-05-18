@@ -44,7 +44,6 @@ header {
     background-color: #FF6900;
     position: fixed;
     width: 100%;
-
 }
 
 .personal {
@@ -108,7 +107,28 @@ main {
     top: 20px;
 }
 
+/* dettaglio captions */
+
+.brand {
+    font-size: 12px;
+}
+
+.item-description {
+    font-weight: 700;
+}
+
+.new-price {
+    color: red;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
 /* dettaglio immagini */
+
 .img-item {
     position: relative;
     width: 500px;
@@ -128,4 +148,74 @@ main {
 
 #img-3 {
     background-image: url(../img/3.webp);
+}
+
+#img-4 {
+    background-image: url(../img/4.webp);
+}
+
+#img-5 {
+    background-image: url(../img/5.webp);
+}
+
+#img-6 {
+    background-image: url(../img/6.webp);
+}
+
+/*  hovers */
+
+#img-1:hover {
+    background-image: url(../img/1b.webp);
+}
+
+#img-2:hover {
+    background-image: url(../img/2b.webp);
+}
+
+#img-3:hover {
+    background-image: url(../img/3b.webp);
+}
+
+#img-4:hover {
+    background-image: url(../img/4b.webp);
+}
+
+#img-5:hover {
+    background-image: url(../img/5b.webp);
+}
+
+#img-6:hover {
+    background-image: url(../img/6b.webp);
+}
+
+.add-favourite:hover {
+    color: red
+}
+
+footer {
+    margin-top: 100px;
+
+    background-color: #1A1A1A;
+    color: #fff;
+}
+
+.info-azienda a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+}
+
+.info {
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.info-social a {
+    color: #fff;
+    font-size: 20px;
+}
+
+h6 {
+    margin-bottom: 15px;
 }
