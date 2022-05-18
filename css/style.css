@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+/* utils */
+.d-flex {
+    display: flex;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.fb-25 {
+    flex-basis: 25%;
+}
+
+.fb-50 {
+    flex-basis: 50%;
+}
+
+.fb-30 {
+    flex-basis: 30%;
+}
+
+.row {
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+/* header */
+
+header {
+    z-index: 1;
+    height: 80px;
+    background-color: #FF6900;
+    position: fixed;
+    width: 100%;
+
+}
+
+.personal {
+    text-align: right;
+}
+
+.nav-bar {
+    line-height: 80px;
+}
+
+.logo {
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo {
+    height: 40px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 5px
+}
+
+/*  main */
+main {
+    padding-top: 80px;
+}
+
+/* cards */
+.discount {
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.eco {
+    color: white;
+    font-size: 18px;
+    background-color: #008000;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.label {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.add-favourite {
+    font-size: 30px;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+/* dettaglio immagini */
+.img-item {
+    position: relative;
+    width: 500px;
+    height: 700px;
+    display: block;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url(../img/1.webp);
+}
+
+#img-2 {
+    background-image: url(../img/2.webp);
+}
+
+#img-3 {
+    background-image: url(../img/3.webp);
+}
